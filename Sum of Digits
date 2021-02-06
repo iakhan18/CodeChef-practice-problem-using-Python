@@ -1,0 +1,8 @@
+t =int(input())
+for i in range(t):
+    sum = 0
+    no = input()
+    while no!="":
+        sum+=int(no[-1])
+        no = no[:-1]
+    print("\n",sum)
